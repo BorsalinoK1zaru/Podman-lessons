@@ -1,14 +1,14 @@
-# Podman — уроки
+# Урок 2. Сборка и запуск сайта в Podman
 
-В репозитории сохранено состояние проекта после практикума «Сборка и запуск сайта в Podman». Готовый `index.html` и `Containerfile` лежат в корне. Вы можете собрать первую версию сайта и перейти к добавлению второй страницы.
+В ветке `lesson_2` сохранён результат второго занятия. Готовый `index.html` содержит страницу сайта, а `Containerfile` описывает образ nginx с этой страницей. Откройте [методичку занятия](docs/podman-practice.docx), чтобы повторить практику, или запустите готовую версию `v1`, чтобы продолжить лабораторную работу.
 
 ## Запуск на Fedora
 
-Выполните в терминале под своей обычной учётной записью:
+Выполните команды в терминале под своей обычной учётной записью. Имя папки `Podman-lesson-2` позволяет сохранить отдельную копию урока.
 
 ```bash
-git clone https://github.com/BorsalinoK1zaru/Podman-lessons.git
-cd Podman-lessons
+git clone --branch lesson_2 --single-branch https://github.com/BorsalinoK1zaru/Podman-lessons.git Podman-lesson-2
+cd Podman-lesson-2
 ./start.sh
 ```
 
@@ -27,7 +27,6 @@ cd Podman-lessons
 | `index.html`, `Containerfile` | Исходники готовой версии сайта |
 | `start.sh` | Локальная сборка и запуск первой версии |
 | [Практикум по Podman](docs/podman-practice.docx) | Образ, контейнер, порты, журнал и сборка |
-| [Подготовка Fedora](docs/fedora-start.docx), [hello.py](lessons/01-fedora/hello.py) | Пособие и готовый пример первого занятия |
 
 ## Проверка и остановка
 
