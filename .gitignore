@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.log
+*.swp
+*.tmp
+*~
+~$*.docx
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.tar
+*.tar.gz
